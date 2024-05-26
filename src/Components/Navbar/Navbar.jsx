@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import "./Navbar.css";
 
 const navigation = [
-  { name: "Somos", path: "/somos" },
-  { name: "Proyectos", path: "/Proyecto" },
+  { name: "Somos", path: "/Decodevs/somos" },
+  { name: "Proyectos", path: "/Decodevs/Proyecto" },
   { name: "dssd", path: "/dssd" },
-  { name: "Contactanos", path: "/Contacto" },
+  { name: "Contactanos", path: "/Decodevs/Contacto" },
 ];
 
 export const Navbar = () => {
@@ -36,7 +36,7 @@ export const Navbar = () => {
       <nav className={`flex items-center justify-between p-6 lg:px-8 ${scrolled ? "bg-opacity-75  transition-all  bg-slate-800 backdrop-blur-sm shadow-lg" : ""}`}>
         {/* Logo a la izquierda */}
         <div className='flex items-center'>
-          <Link to='/' className='-m-1.5 p-1.5'>
+          <Link to='/Decodevs/' className='-m-1.5 p-1.5'>
             <span className='sr-only'>Your Company</span>
             <img className='h-8 w-auto' src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600' alt='' />
           </Link>
