@@ -42,12 +42,12 @@ export const Navbar = () => {
           </Link>
         </div>
         {/* Componentes centrados */}
-        <div className='hidden lg:flex flex-grow justify-center gap-x-12'>
+        <div className='hidden lg:flex flex-grow  justify-center gap-x-12'>
           {navigation.map((item) => (
             <Link
               key={item.name}
               to={item.path}
-              className='transition ease-in-out delay-150 text-xs navbar font-semibold leading-6 text-white hover:-translate-y-1 hover:scale-110 duration-300'
+              className='transition ease-in-out navbar delay-150 text-xs  font-semibold leading-6 text-white hover:-translate-y-1 hover:scale-110 duration-300'
             >
               {item.name}
             </Link>
