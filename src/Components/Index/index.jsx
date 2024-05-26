@@ -43,9 +43,9 @@ export const Index = () => {
               />
             </div>
             <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
-              <h1 className='flex justify-center mb-36 text-center items-center title text-white'>DecoDev</h1>
+              <h1 className='flex justify-center mb-36 text-center items-center  text-4xl md:text-7xl sm:text-6xl  title text-white'>DecoDev</h1>
               <div className='text-center'>
-                <h2 className='text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl subtitulo'>Data to enrich your online business</h2>
+                <h2 className='text-2xl font-bold tracking-tight text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
                 <p className='mt-6 text-lg leading-8 text-gray-300'>
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                 </p>
@@ -79,9 +79,9 @@ export const Index = () => {
         <div className='bg-gray-800 py-24 sm:py-32'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl lg:text-center'>
-              <h2 className='text-base font-semibold leading-7 text-gray-300 text'>Deploy faster</h2>
-              <p className='mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl subtitulo'>Everything you need to deploy your app</p>
-              <p className='mt-6 text-lg leading-8 text-gray-300 text'>
+              <h2 className=' flex justify-center text-xl font-semibold leading-7 sm:text-2xl md:text-2xl lg:text-3xl text-white text'>Deploy faster</h2>
+              <p className='flex justify-center mt-2 text-lg font-bold tracking-tight text-gray-300 sm:text-lg subtitulo'>Everything you need to deploy your app</p>
+              <p className=' flex justify-center mt-6 text-sm sm:text-base leading-8 text-gray-300 text'>
                 Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.
               </p>
             </div>
