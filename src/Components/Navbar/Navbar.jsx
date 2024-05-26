@@ -7,7 +7,7 @@ import "./Navbar.css";
 const navigation = [
   { name: "Somos", path: "/Decodevs/somos" },
   { name: "Proyectos", path: "/Decodevs/Proyecto" },
-  { name: "dssd", path: "/dssd" },
+  { name: "dssd", path: "/Decodevs/dssd" },
   { name: "Contactanos", path: "/Decodevs/Contacto" },
 ];
 
