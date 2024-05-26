@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "ff";
+  src: url(../../../public/Transducer.ttf);
+}
+
+@font-face {
+  font-family: "transducer";
+  src: url(../../../public/Transducer\ Regular.ttf);
+}
+.title {
+  font-family: "ff";
+  font-size: 70px;
+}
+
+.text {
+  font-family: "ff";
+  font-size: 15px;
+}
+
+.subtitulo {
+  font-family: "ff";
+  font-size: 25px;
+}
+
+.subtitulo2 {
+  font-family: "ff";
+  font-size: 13spx;
+}
