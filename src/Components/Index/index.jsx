@@ -43,9 +43,9 @@ export const Index = () => {
               />
             </div>
             <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
-              <h1 className='flex justify-center mb-36 text-center items-center  text-4xl md:text-7xl sm:text-6xl  title text-white'>DecoDev</h1>
+              <h1 className='flex justify-center mb-36 text-center items-center  text-5xl md:text-7xl sm:text-6xl  title text-white'>DecoDev</h1>
               <div className='text-center'>
-                <h2 className='text-2xl font-bold tracking-tight text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
+                <h2 className='text-xl font-bold tracking-tight text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
                 <p className='mt-6 text-lg leading-8 text-gray-300'>
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                 </p>
