@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import "./Navbar.css";
 
 const navigation = [
-  { name: "Somos", path: "/Decodevs/somos" },
-  { name: "Proyectos", path: "/Decodevs/Proyecto" },
+  { name: "Somos", path: "/Decodevs-react/somos" },
+  { name: "Proyectos", path: "/Decodevs-react/Proyecto" },
   { name: "dssd", path: "/Decodevs/dssd" },
-  { name: "Contactanos", path: "/Decodevs/Contacto" },
+  { name: "Contactanos", path: "/Decodevs-react/Contacto" },
 ];
 
 export const Navbar = () => {

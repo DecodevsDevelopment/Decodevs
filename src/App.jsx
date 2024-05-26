@@ -9,10 +9,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/Decodevs/' element={<Index />} />
-          <Route path='/Decodevs/Proyecto' element={<Proyecto />} />
-          <Route path='/Decodevs/Somos' element={<Somos />} />
-          <Route path='/Decodevs/Contacto' element={<Contacto />} />
+          <Route path='/Decodevs-react/' element={<Index />} />
+          <Route path='/Decodevs-react/Proyecto' element={<Proyecto />} />
+          <Route path='/Decodevs-react/Somos' element={<Somos />} />
+          <Route path='/Decodevs-react/Contacto' element={<Contacto />} />
           {/* <Route path='/ProyectoAker/productos' element={<Productos />} /> */}
         </Routes>
       </BrowserRouter>
