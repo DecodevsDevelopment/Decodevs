@@ -2,7 +2,10 @@ import { Navbar } from "../Navbar/Navbar";
 import { Footer } from "../Footer/Footer";
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from "@heroicons/react/24/outline";
 import { Banner } from "../Banner/Banner";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./index.css";
+AOS.init();
 const features = [
   {
     name: "Push to deploy",
@@ -42,11 +45,11 @@ export const Index = () => {
                 }}
               />
             </div>
-            <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
-              <h1 className='flex justify-center mb-36 text-center items-center  text-5xl md:text-7xl sm:text-6xl  title text-white'>DecoDev</h1>
+            <div  className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
+              <h1 className='flex justify-center mb-36 text-center items-center animate-fade-up animate-once animate-duration-[800ms] animate-ease-in-out text-5xl md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
               <div className='text-center'>
-                <h2 className='text-xl font-bold tracking-tight text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
-                <p className='mt-6 text-lg leading-8 text-gray-300'>
+                <h2 className='text-xl font-bold tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
+                <p className='mt-6 text-lg leading-8 animate-fade-up animate-once animate-duration-[800ms] animate-delay-[2000ms] animate-ease-in-out text-gray-300'>
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                 </p>
                 <div className='mt-10 flex items-center justify-center gap-x-6'>
@@ -86,9 +89,9 @@ export const Index = () => {
               </p>
             </div>
             <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl'>
-              <dl className='grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
+              <dl className='grid max-w-xl  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
                 {features.map((feature) => (
-                  <div key={feature.name} className='relative pl-16'>
+                  <div key={feature.name} data-aos="zoom-in" data-aos-duration="800" className='relative   pl-16 '>
                     <dt className='text-base font-semibold leading-7 text-white subtitulo2'>
                       <div className='absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600'>
                         <feature.icon className='h-6 w-6 text-white' aria-hidden='true' />

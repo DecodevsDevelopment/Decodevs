@@ -1,5 +1,8 @@
 import { Navbar } from "../Navbar/Navbar";
 import { Footer } from "../Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 import "./Contacto.css";
 export const Contacto = () => {
   return (
@@ -16,7 +19,7 @@ export const Contacto = () => {
               }}
             />
           </div>
-          <div className='max-w-lg mx-auto  p-6 bg-gray-800 text-white rounded-lg shadow-corners   '>
+          <div data-aos='zoom-out' data-aos-duration="500" className='max-w-lg mx-auto  p-6 bg-gray-800 text-white rounded-lg shadow-corners   '>
             <h2 className='text-2xl flex justify-center font-bold mb-4'>Contact Us</h2>
             <p className='mb-4'>Let us help you find the right plan for your business.</p>
             <p className='mb-6 text-sm'>

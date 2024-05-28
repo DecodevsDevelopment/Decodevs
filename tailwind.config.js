@@ -7,5 +7,5 @@ export default {
       keyframes: {},
     },
   },
-  plugins: [],
+  plugins: [ require('tailwindcss-animated')],
 };

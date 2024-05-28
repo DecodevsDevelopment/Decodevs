@@ -1,8 +1,10 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { Footer } from "../Footer/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Somos.css";
-
+AOS.init();
 const CardNosotros = ({ nombre, especialidad, Empresa }) => {
   return (
     <div className='flex flex-col items-center p-2'>
@@ -45,10 +47,18 @@ export const Somos = () => {
           </p>
 
           <div className='grid grid-cols-1 gap-8 mt-20 mb-20 sm:grid-cols-2 lg:grid-cols-4'>
-            <CardNosotros nombre='Nicolas Iglesias' Empresa='Ceo, ' especialidad='Front end'  />
-            <CardNosotros nombre='Franco Orlando' Empresa='Co-Ceo, ' especialidad= 'Back end'  />
-            <CardNosotros nombre='Tomas Calderaro' especialidad= 'Front end' />
-            <CardNosotros nombre='Santiago Araya' especialidad= 'Back end' />
+            <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500">
+            <CardNosotros  nombre='Nicolas Iglesias' Empresa='Ceo, ' especialidad='Front end'  />
+            </div>
+            <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500">
+            <CardNosotros data-aos="fade-down" nombre='Franco Orlando' Empresa='Co-Ceo, ' especialidad= 'Back end'  />
+            </div>
+             <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500">
+            <CardNosotros data-aos="fade-up" nombre='Tomas Calderaro' especialidad= 'Front end' />
+            </div>
+            <div data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="500">
+            <CardNosotros data-aos="fade-down" nombre='Santiago Araya' especialidad= 'Back end' />
+            </div>
           </div>
         </div>
         <div className=' bottom-0 left-0 w-full'>
