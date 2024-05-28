@@ -31,6 +31,17 @@ export const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const resetScrollPosition = () => {
+      window.scrollTo(0, 0);
+    };
+
+    // Reset scroll position when navigating to a new page
+    resetScrollPosition();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <header className='fixed inset-x-0 top-0 z-50 w-full'>
       <nav className={`flex items-center justify-between p-6 lg:px-8 ${scrolled ? "bg-opacity-75  transition-all  bg-slate-800 backdrop-blur-sm shadow-lg" : ""}`}>
