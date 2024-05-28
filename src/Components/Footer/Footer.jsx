@@ -66,27 +66,27 @@ export const Footer = () => {
               </a>
               <ul className='text-lg text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500'>
                 <li>
-                  <a href='#' className='text-white hover:text-gray-400'>
+                  <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Pagedone
                   </a>
                 </li>
                 <li className='sm:my-0 my-2'>
-                  <a href='#' className='text-white hover:text-gray-400'>
+                  <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href='#' className='text-white hover:text-gray-400'>
+                  <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Resources
                   </a>
                 </li>
                 <li className='sm:my-0 my-2'>
-                  <a href='#' className='text-white hover:text-gray-400'>
+                  <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href='#' className='text-white hover:text-gray-400'>
+                  <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Support
                   </a>
                 </li>
@@ -130,9 +130,9 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div className='py-7 border-t border-gray-700'>
+            <div className='py-4 border-t border-gray-700'>
               <div className='flex items-center justify-center flex-col'>
-                <span className='text-gray-300 flex'>
+                <span className='text-gray-300 text-center text-base textFooter flex sm:text-lg lg:text-xl '>
                   <p>Decodevs 2024, Todos los derechos reservados.</p>
                 </span>
               </div>
