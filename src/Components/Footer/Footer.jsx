@@ -6,7 +6,7 @@ export const Footer = () => {
       <hr></hr>
       <div>
         <footer className='w-full bg-gray-800'>
-          <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+          <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-10'>
             <div className='py-16 flex justify-between items-center flex-col gap-8 lg:flex-row'>
               <a href='https://pagedone.io/' className='flex justify-center '>
                 <svg className='w-40 h-8' viewBox='0 0 164 33' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -132,7 +132,7 @@ export const Footer = () => {
 
             <div className='py-4 border-t border-gray-700'>
               <div className='flex items-center justify-center flex-col'>
-                <span className='text-gray-300 text-center text-xs textFooter flex sm:text-sm lg:text-base '>
+                <span className='text-gray-300 text-center text-xs textFooter flex sm:text-sm lg:text-base  '>
                   <p>Decodevs 2024, Todos los derechos reservados.</p>
                 </span>
               </div>

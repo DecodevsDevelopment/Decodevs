@@ -19,35 +19,36 @@ export const Contacto = () => {
               }}
             />
           </div>
-          <div data-aos='zoom-out' data-aos-duration="500" className='max-w-lg mx-auto  p-6 bg-gray-800 text-white rounded-lg shadow-corners   '>
-            <h2 className='text-2xl flex justify-center font-bold mb-4'>Contact Us</h2>
-            <p className='mb-4'>Let us help you find the right plan for your business.</p>
-            <p className='mb-6 text-sm'>
+          <div data-aos='zoom-out' data-aos-duration="500" >
+          <div className='max-w-lg mx-auto   p-6 bg-gray-800 text-white rounded-lg shadow-corners'>
+            <h2 className='text-2xl flex justify-center  mb-4 tituloContacto'>Contact Us</h2>
+            <p className='mb-4 text-center text-[14px] subtituloContacto'>Let us help you find the right plan for your business.</p>
+            <p className='mb-6 text-[11px] text-center subtituloContacto '>
               Inputs marked with <span className='text-red-500'>*</span> are required.
             </p>
             <form>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
                 <div>
-                  <label className='block mb-1' htmlFor='first-name'>
+                  <label className='block text-[14px] subtituloContacto mb-1' htmlFor='first-name'>
                     First Name
                   </label>
                   <input className='w-full p-2 bg-zinc-700 border border-zinc-600 rounded' type='text' id='first-name' placeholder='Your first name' />
                 </div>
                 <div>
-                  <label className='block mb-1' htmlFor='last-name'>
+                  <label className='block mb-1 text-[14px] subtituloContacto'  htmlFor='last-name'>
                     Last Name
                   </label>
                   <input className='w-full p-2 bg-zinc-700 border border-zinc-600 rounded' type='text' id='last-name' placeholder='Your last name' />
                 </div>
               </div>
               <div className='mb-4'>
-                <label className='block mb-1' htmlFor='company'>
+                <label className='block mb-1 text-[14px] subtituloContacto' htmlFor='company'>
                   Company
                 </label>
                 <input className='w-full p-2 bg-zinc-700 border border-zinc-600 rounded' type='text' id='company' placeholder='Your company or organization name' />
               </div>
               <div className='mb-4'>
-                <label className='block mb-1' htmlFor='email'>
+                <label className='block mb-1 text-[14px] subtituloContacto' htmlFor='email'>
                   Email <span className='text-red-500'>*</span>
                 </label>
                 <div className='relative'>
@@ -56,12 +57,12 @@ export const Contacto = () => {
                 </div>
               </div>
               <div className='mb-6'>
-                <label className='block mb-1' htmlFor='message'>
+                <label className='block mb-1 text-[14px] subtituloContacto' htmlFor='message'>
                   Message <span className='text-red-500'>*</span>
                 </label>
                 <textarea className='w-full p-2 bg-zinc-700 border border-zinc-600 rounded' id='message' rows='4' placeholder='How can we help?'></textarea>
               </div>
-              <button className='w-full p-3 bg-gradient-to-r from-purple-500 to-purple-700 text-white font-bold rounded'>Submit</button>
+              <button className='w-full p-3 bg-gradient-to-r from-purple-500 to-purple-700 text-[14px] subtituloContacto text-white font-bold rounded'>Submit</button>
             </form>
           </div>
 
@@ -74,6 +75,7 @@ export const Contacto = () => {
               }}
             />
           </div>
+        </div>
         </div>
       </div>
       <Footer />

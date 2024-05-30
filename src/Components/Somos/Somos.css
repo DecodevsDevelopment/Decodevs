@@ -1,7 +1,10 @@
 .titSomos {
-  font-family: "ff";
+  font-family: 'ff';
 }
 
+.subtituloSomos{
+  font-family: 'transducer'
+}
 .tituloNombre{
   font-family: 'ff';
 }

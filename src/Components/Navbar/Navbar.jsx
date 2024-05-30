@@ -7,7 +7,6 @@ import "./Navbar.css";
 const navigation = [
   { name: "Somos", path: "/Decodevs/somos" },
   { name: "Proyectos", path: "/Decodevs/Proyecto" },
-  { name: "dssd", path: "/Decodevs/dssd" },
   { name: "Contactanos", path: "/Decodevs/Contacto" },
 ];
 
@@ -75,7 +74,7 @@ export const Navbar = () => {
       {/* Panel de menú desplegable para dispositivos móviles */}
       <Dialog className='lg:hidden' open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className='fixed inset-0 z-50 ' />
-        <Dialog.Panel className='fixed inset-y-0 h-2/4 right-0 z-50 w-full overflow-y-auto bg-gray-700 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+        <Dialog.Panel className='fixed inset-y-0 h-2/4 right-0 z-50 w-full overflow-y-auto bg-gray-700 px-6 py-6  sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
             {/* Logo a la izquierda */}
             <Link to='/' className='-m-1.5 p-1.5'>

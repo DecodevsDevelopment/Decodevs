@@ -2,6 +2,7 @@
 @layer utilities {
   .shadow-corners {
     position: relative;
+    
   }
 
   .shadow-corners::before,
@@ -25,4 +26,12 @@
     right: 0;
     border-bottom-right-radius: 5px;
   }
+}
+
+.tituloContacto{
+  font-family: 'ff';
+}
+
+.subtituloContacto{
+  font-family: 'transducer';
 }
