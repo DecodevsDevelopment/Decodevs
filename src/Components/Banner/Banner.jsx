@@ -4,8 +4,8 @@ export const Banner = () => {
     <>
       <section className='bg-gray-800'>
         <div className='w-full inline-flex relative px-10 mx-auto max-w-[1800px] flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]'>
-          <div class='bg-gradient-to-r absolute h-full top-0 w-[20%] z-10 -left-px dark:from-base-900 from-20% from-base-100 to-transparent'></div>
-          <div class='bg-gradient-to-r absolute h-full top-0 w-[20%] z-10 -right-px dark:to-base-900 from-transparent to-80% to-base-100'></div>
+          <div className='bg-gradient-to-r absolute h-full top-0 w-[20%] z-10 -left-px dark:from-base-900 from-20% from-base-100 to-transparent'></div>
+          <div className='bg-gradient-to-r absolute h-full top-0 w-[20%] z-10 -right-px dark:to-base-900 from-transparent to-80% to-base-100'></div>
           <Marquee>
             <ul className='flex items-center justify-center md:justify-start  [&_li]:mx-8 [&_img]:max-w-none '>
               <li>

@@ -46,10 +46,10 @@ export const Index = () => {
               />
             </div>
             <div  className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
-              <h1 className='flex justify-center mb-36 text-center items-center animate-fade-up animate-once animate-duration-[800ms] animate-ease-in-out text-5xl md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
+              <h1 className='flex justify-center mb-24 text-center items-center animate-fade-up animate-once animate-duration-[800ms] animate-ease-in-out text-5xl md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
               <div className='text-center'>
-                <h2 className='text-xl font-bold tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
-                <p className='mt-6 text-lg leading-8 animate-fade-up animate-once animate-duration-[800ms] animate-delay-[2000ms] animate-ease-in-out text-gray-300'>
+                <h2 className='text-xl  tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
+                <p className='mt-6 text-xs leading-8 animate-fade-up animate-once animate-duration-[800ms] animate-delay-[2000ms] animate-ease-in-out text-gray-300 texto md:text-sm sm:text-sm '>
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
                 </p>
                 <div className='mt-10 flex items-center justify-center gap-x-6'>
@@ -81,10 +81,10 @@ export const Index = () => {
       <section className=''>
         <div className='bg-gray-800 py-24 sm:py-32'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-            <div className='mx-auto max-w-2xl lg:text-center'>
-              <h2 className=' flex justify-center text-xl font-semibold leading-7 sm:text-2xl md:text-2xl lg:text-3xl text-white text'>Deploy faster</h2>
-              <p className='flex justify-center mt-2 text-lg font-bold tracking-tight text-gray-300 sm:text-lg subtitulo'>Everything you need to deploy your app</p>
-              <p className=' flex justify-center mt-6 text-sm sm:text-base leading-8 text-gray-300 text'>
+            <div className='mx-auto max-w-2xl text-center lg:text-center'>
+              <h2 className=' flex justify-center text-xl  leading-7 sm:text-2xl md:text-2xl lg:text-3xl text-white text'>Deploy faster</h2>
+              <p className='flex justify-center mt-2 text-lg tracking-tight text-gray-300 sm:text-lg subtitulo'>Everything you need to deploy your app</p>
+              <p className=' flex justify-center mt-6 text-xs sm:text-sm leading-8 text-gray-300 text'>
                 Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.
               </p>
             </div>
@@ -92,13 +92,13 @@ export const Index = () => {
               <dl className='grid max-w-xl  grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16'>
                 {features.map((feature) => (
                   <div key={feature.name} data-aos="zoom-in" data-aos-duration="800" className='relative   pl-16 '>
-                    <dt className='text-base font-semibold leading-7 text-white subtitulo2'>
+                    <dt className='text-base  leading-7 text-white subtitulo2'>
                       <div className='absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600'>
                         <feature.icon className='h-6 w-6 text-white' aria-hidden='true' />
                       </div>
                       {feature.name}
                     </dt>
-                    <dd className='mt-2 text-base leading-7 text-gray-300'>{feature.description}</dd>
+                    <dd className='mt-2 text-xs leading-7 text-gray-300 texto'>{feature.description}</dd>
                   </div>
                 ))}
               </dl>

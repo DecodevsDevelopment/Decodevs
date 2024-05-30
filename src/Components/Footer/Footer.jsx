@@ -64,7 +64,7 @@ export const Footer = () => {
                   </defs>
                 </svg>
               </a>
-              <ul className='text-lg text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500'>
+              <ul className='text-xs text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500'>
                 <li>
                   <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Pagedone
@@ -132,7 +132,7 @@ export const Footer = () => {
 
             <div className='py-4 border-t border-gray-700'>
               <div className='flex items-center justify-center flex-col'>
-                <span className='text-gray-300 text-center text-base textFooter flex sm:text-lg lg:text-xl '>
+                <span className='text-gray-300 text-center text-xs textFooter flex sm:text-sm lg:text-base '>
                   <p>Decodevs 2024, Todos los derechos reservados.</p>
                 </span>
               </div>

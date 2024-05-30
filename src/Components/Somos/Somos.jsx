@@ -14,8 +14,8 @@ const CardNosotros = ({ nombre, especialidad, Empresa, instagram, github }) => {
         alt=''
       />
 
-      <h1 className='mt-4 text-lg font-semibold text-center text-white tituloNombre capitalize'>{nombre}</h1>
-      <p className='mt-2 text-gray-400 descripcion text-base capitalize'>{Empresa} {especialidad} </p>
+      <h1 className='mt-4 text-base  text-center text-white tituloNombre '>{nombre}</h1>
+      <p className='mt-2 text-gray-400 descripcion text-xs'>{Empresa} {especialidad} </p>
 
       <div className='flex mt-3 -mx-2'>
         <a href={instagram} className='mx-2 text-gray-300 hover:animate-jump  hover:text-gray-100' aria-label='Instagram'>

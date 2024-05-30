@@ -5,8 +5,9 @@
 
 @font-face {
   font-family: "transducer";
-  src: url(../../../public/Transducer\ Regular.ttf);
+  src: url(../../../public/Transducer-Extended-Regular.ttf);
 }
+
 .title {
   font-family: "ff";
   font-size: 70px;
@@ -16,10 +17,11 @@
   font-family: "ff";
   font-size: 15px;
 }
-
+.texto {
+  font-family: 'transducer';
+}
 .subtitulo {
-  font-family: "ff";
-  font-size: 25px;
+  font-family: "transducer";
 }
 
 .subtitulo2 {
