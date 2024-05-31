@@ -70,7 +70,7 @@ export const Footer = () => {
                     Pagedone
                   </a>
                 </li>
-                <li className='sm:my-0 my-2'>
+                <li className='sm:my-0 my-3'>
                   <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Products
                   </a>
@@ -80,7 +80,7 @@ export const Footer = () => {
                     Resources
                   </a>
                 </li>
-                <li className='sm:my-0 my-2'>
+                <li className='sm:my-0 my-3'>
                   <a href='#' className='text-white textFooter hover:text-gray-400'>
                     Blog
                   </a>

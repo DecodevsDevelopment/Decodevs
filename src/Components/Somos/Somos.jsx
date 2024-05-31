@@ -38,7 +38,7 @@ export const Somos = () => {
   return (
     <>
       <Navbar />
-      <section className='bg-gray-800 min-h-screen relative'>
+      <section className='bg-gray-800 min-h-screen relative overflow-x-hidden'>
         <div className='container px-6 py-10 mx-auto'>
           <h1 className='text-2xl my-16  text-center titSomos text-white lg:text-3xl'>Our Executive Team</h1>
 
