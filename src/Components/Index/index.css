@@ -8,42 +8,21 @@
   src: url(../../../public/Transducer-Extended-Regular.ttf);
 }
 
- .title {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.title {
   font-family: "ff";
-  font-size: 48px;
-  margin: 0 0 96px 0;
-  --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-     --tw-animate-iteration: 1;
-    animation-iteration-count: var(--tw-animate-iteration);
-     --tw-animate-duration: 800ms;
-    animation-duration: var(--tw-animate-duration);
-     --tw-animate-easing: cubic-bezier(0.4, 0, 0.2, 1);
-    animation-timing-function: var(--tw-animate-easing);
-
-} 
-.subtitulo {
-  font-family: "transducer";
-  font-size: 20px;
-  letter-spacing: -0.025em;
-  line-height: 28px;
-
-}
-.texto {
-  font-family: 'transducer';
-  margin: 24px 0 0 0;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 70px;
 }
 
 .text {
   font-family: "ff";
   font-size: 15px;
 }
-
+.texto {
+  font-family: 'transducer';
+}
+.subtitulo {
+  font-family: "transducer";
+}
 
 .subtitulo2 {
   font-family: "ff";
