@@ -48,9 +48,9 @@ export const Index = () => {
             <div  className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
               <h1 className=' flex justify-center animate-fade-up mb-24 text-center animate-once animate-duration-[800ms] animate-ease-in-out text-5xl md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
               <div className='text-center'>
-                <h2 className='text-xl  tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
+                <h2 className='text-xl  tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Desarrollo web que impulsa su negocio</h2>
                 <p className='mt-6 text-xs leading-8 animate-fade-up animate-once animate-duration-[800ms] animate-delay-[2000ms] animate-ease-in-out text-gray-300 texto md:text-sm sm:text-sm '>
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+       En DecoDev desarrollamos soluciones web escalables, seguras y de alto rendimiento que impulsan su negocio.
                 </p>
                 <div className='mt-10 flex items-center justify-center gap-x-6'>
                   <a
