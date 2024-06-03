@@ -46,7 +46,7 @@ export const Index = () => {
               />
             </div>
             <div  className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
-              <h1 className=' animate-fade-up mb-24 text-center animate-once animate-duration-[800ms] animate-ease-in-out  md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
+              <h1 className=' flex justify-center animate-fade-up mb-24 text-center animate-once animate-duration-[800ms] animate-ease-in-out text-5xl md:text-7xl sm:text-6xl  title text-white ' >DecoDev</h1>
               <div className='text-center'>
                 <h2 className='text-xl  tracking-tight animate-fade-up animate-once animate-duration-[800ms] animate-delay-1000 animate-ease-in-out text-gray-300 md:text-3xl sm:text-2xl subtitulo'>Data to enrich your online business</h2>
                 <p className='mt-6 text-xs leading-8 animate-fade-up animate-once animate-duration-[800ms] animate-delay-[2000ms] animate-ease-in-out text-gray-300 texto md:text-sm sm:text-sm '>
