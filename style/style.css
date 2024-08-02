@@ -91,6 +91,36 @@ body, div, ul, nav, header, footer, a, li, label {
 
 /* HEADER ENDS */
 
+/*  MAIN SECTION  */
+
+.main {
+    container-type: inline-size;
+    container-name: header;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: initial;
+    font-size: 4.5rem;
+}
+.main__description {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-family: initial;
+}
+
+
+/*  MAIN SECTION ENDS */
+
 /* PROFILE SECTION */
 .profile {
     container-name: profile;
@@ -233,7 +263,7 @@ h1 {
     min-height: 80vh;
 }
 .portfolio__project {
-    background-image: linear-gradient(#0009, #0009), url("/img/coco.jpg");
+    background-image: linear-gradient(#0009, #0009), url("/img/5.png");
     background-position: center;
     background-size: cover;
     display: grid;
