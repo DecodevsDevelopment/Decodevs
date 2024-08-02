@@ -238,6 +238,7 @@ h1 {
     background-size: cover;
     display: grid;
     place-content: center;
+    border-radius: 8px;
 }
 .portfolio__project:hover {
     opacity: 0.74;
@@ -295,6 +296,7 @@ h1 {
     max-width: 600px;
     width: 100%;
     display: grid;
+    margin-bottom: 30px;
 }
 .form__input-container :is(input,textarea) {
     width: 100%;
@@ -314,6 +316,9 @@ h1 {
     background-color: #48e;
     color: #fff;
 }
+.form__title {
+    font-size: 2.4rem;
+}
 /*  CONTACT SECTION END */
 
 /*  CONTACT QUERIES  */
@@ -327,6 +332,10 @@ h1 {
         "message message"
         "button button";
         gap: 12px;
+        background-image: radial-gradient(#18233f06,#18233f22);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 40px #0006;
     }
     .form__input-container:first-child{
         grid-area:name;
@@ -343,6 +352,25 @@ h1 {
     .form__input-container:nth-child(5) {
         grid-area: button;
     }
+    .form__input-container :is(input,textarea) {
+        box-shadow: none;
+        border-radius: 4px;
+    }
 }  
 
 /*  CONTACT QUERIES ENDS */
+
+
+/*  FOOTER SECTION  */
+
+footer {
+    padding: 60PX;
+    text-align: center;
+    background-color: #18233f;
+    color: #fffd;
+    font-size: 22px;
+}
+
+
+
+/*  FOOTER SECTION ENDS */
