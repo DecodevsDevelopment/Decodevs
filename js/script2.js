@@ -8,7 +8,7 @@ registros de datos de ningun tipo, por ende las clases no podran comenzar hasta 
 -Crear mini-sistema que nos permita regirstar los alumnos que estan presentes (P) y austentes (A) en clase.
 -Pasados los 30 dias mostrar la situacion final de todos los alumnos (nro total de presentes y ausentes).
 -Se puede tener un maxino de 10% de ausencias por semestre, si se tienen mas aclarar que esta reprobado.
-
+*/
 
 let cantidad = prompt("¿Cuantos alumnos son?");
 let alumnosTotales = [19];
@@ -41,5 +41,5 @@ for (alumno in alumnosTotales) {
     } 
     console.log(resultado)
 }
-*/
+
 
