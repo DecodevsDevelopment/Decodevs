@@ -1,7 +1,7 @@
 /* Cofla feliz por haber empezado las clases volvio a su casa y ya tiene tarea basica de calculo; Tiene que hacer un par de ejercicios de matematicas
 que incluyen suma, resta, division y multiplicacion, realizar esto con una calculadora puede ser mucho mas efectivo.
         -Crear calculadora que nos simplifique el trabajo
- */
+
 
         const suma = (num1,num2)=> {
             return parseInt(num1) + parseInt(num2)
@@ -46,4 +46,4 @@ que incluyen suma, resta, division y multiplicacion, realizar esto con una calcu
         else {
             alert("No se ha encontrado la operacion.")
         }
-        
+         */
