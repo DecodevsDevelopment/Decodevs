@@ -16,7 +16,7 @@ que incluyen suma, resta, division y multiplicacion, realizar esto con una calcu
             return parseInt(num1) * parseInt(num2)
         }
         
-        alert("¿Que operacioon deseas realizar?");
+        alert("¿Que operacion deseas realizar?");
         operacion = prompt("1: suma, 2: resta, 3: division, 4: multiplicacion");
         
         if (operacion == 1) {
