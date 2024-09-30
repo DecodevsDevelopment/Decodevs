@@ -1,5 +1,4 @@
 const contenedor = document-querySelector(".flex-container");
-let contador = 0;
 
 function crearLlave(nombre,modelo,precio) {
     contador++;
@@ -11,14 +10,21 @@ function crearLlave(nombre,modelo,precio) {
 }
 
 
+let documentFragment = document.createDocumentFragment();
 
-for (var i = 0; i < 20; i++) {
+for (var i = 1; i <= 20; i++) {
     
-    let modeloRandom = Math.random()*1000;
-    let precioRandom = Math.random()*10+30;
+    let modeloRandom = Math.round(Math.random()*1000);
+    let precioRandom = Math.round(Math.random()*10+30);
     let llave = crearLlave (`llave ${i}`,`modelo ${modeloRandom}`, precioRandom);
     let div = document-createElement("DIV");
+    div.addEventListener("click",()=>{
+        document.querySelector(".ket-data").value = modeloRandom
+    });
+    div.tabIndex = i;
     div.classList.add(`item-${i}`,`flex-item`);
     div.innerHTML = llave[0] + llave[1] + llave[2] + llave[3];
-    contenedor.innerHTML += div;
+    documentFragment.appendChild(div);
 }
+
+contenedor.appendChild(documentFragment);
