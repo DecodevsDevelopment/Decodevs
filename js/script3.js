@@ -18,18 +18,7 @@ class App {
         this.iniciada = false;
         this.instalada = false;
     }
-    abrir() {
-        if(this.iniciada == false) {
-            this.iniciada = true;
-            alert("App encendida");
-        }
-    }
-    cerrar() {
-        if(this.iniciada == true) {
-            this.iniciada = false;
-            alert("App cerrada");
-        }
-    }
+    
     instalar() {
         if(this.instalada == false){
             this.instalada = true;
@@ -46,4 +35,42 @@ class App {
             alert("App desinstalada");
         }
     }
+    abrir() {
+        if(this.iniciada == false && this.instalada == true) {
+            this.iniciada = true;
+            alert("App encendida");
+        }
+    }
+    cerrar() {
+        if(this.iniciada == true && this.instalada == true) {
+            this.iniciada = false;
+            alert("App cerrada");
+        }
+    }
+    appInfo(){
+        return `
+        Descargas: ${this.descargas}
+        Puntuacion: ${this.puntuacion}
+        Peso: ${this.peso}
+        `
+    }
 }
+
+app = new App("16.000", "5 estrellas", "900mb");
+app2 = new App("14.000", "4 estrellas", "800mb");
+app3 = new App("15.000", "5 estrellas", "990mb");
+app4 = new App("6.000", "3 estrellas", "700mb");
+app5 = new App("4.000", "2 estrellas", "700mb");
+app6 = new App("18.000", "5 estrellas", "950mb");
+app7 = new App("10.000", "3 estrellas", "700mb");
+
+console.log(`
+    ${app7.appInfo()}
+    ${app.appInfo()}
+    ${app2.appInfo()}
+    ${app3.appInfo()}
+    ${app4.appInfo()}
+    ${app5.appInfo()}
+    ${app6.appInfo()}
+    `);
+
